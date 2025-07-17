@@ -1,0 +1,121 @@
+.top{
+    border: 1px solid black;
+    height:8vh;
+}
+.nav{
+    border: 1px solid black;
+    height:10vh;
+}
+.sliding{
+    border: 1px solid black;
+    height:66vh;
+    margin-bottom: 7px ;
+}
+.about{
+    border: 1px solid black;
+    height: 50vh;
+    padding:5%;
+    display:flex;
+    justify-content:space-around ;
+}
+h3{
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.box1{
+    border:1px solid blue;
+    height:90%;
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    border:1px solid red;
+    height:90%;
+    width:90%;
+    border-radius: 50%;
+}
+.box2{
+    border:1px solid blue;
+    height:90%;
+    width:70%;
+}
+.services{
+    border:1px solid black;
+    padding: 7px;
+    display: grid;
+    justify-content: space-around;
+    gap: 5px;
+   /* flex-wrap: wrap;*/
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin-bottom: 7px;
+}
+.card{
+    border: 1px solid blue;
+    height: 35vh;
+    width: 20vw;
+}
+.branches{
+    border: 1px solid black;
+    height: fit-content;
+    padding: 7px;
+    margin-bottom: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.city{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    border: 1px solid blue;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+}
+.cityName{
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    border: 1px solid red;
+    width: 20vh;
+    height: 7vh;  /* media */
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    border: 1px solid black;
+    height: 35vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 7px;
+}
+.foot1, .foot2, .foot3{
+    border: 1px solid red;
+    padding: 5px;
+}
+.foot1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.footlogo{
+    border: 1px solid blue;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+}
+.footbox{
+    border: 1px solid blue;
+    height: 18vh;
+    width: 25vw;
+}
+.sign{
+    border: 1px solid black;
+    padding: 7px;
+    text-align: center;
+}

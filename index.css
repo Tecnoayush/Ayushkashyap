@@ -1,0 +1,13 @@
+.box2{
+    height:80vh;
+    border: 1px solid black;
+}
+.carousel-inner img {
+    height: 80vh;
+    width: 100%;
+    object-fit: fill;
+}
+.carousel-item img {
+    height: 80vh;
+    width: 100%;
+}

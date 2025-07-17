@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> kit collage </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+<div class="d-flex">
+  <!-- Sidebar -->
+  <div class="sidebar bg-dark text-white p-3">
+    <h5 class="text-white mb-4">kit collage </h5>
+    <ul class="nav flex-column">
+      <li class="nav-item"><a class="nav-link text-white" href="#">Dashboard</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#">Admission</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#">Student</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#">Add Fees</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#">Reports</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#">SF Courses</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#">Masters</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#">Settings</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#">Logout</a></li>
+    </ul>
+    <div class="mt-auto pt-4 text-center">
+      <div class="welcome-box">
+        <img src="https://www.svgrepo.com/show/452030/account.svg" width="40" alt="user">
+        <p class="mb-0">Welcome<br><strong>pramendra</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content  -->
+  <div class="flex-grow-1 p-4">
+    <h4>Edit Student Details</h4>
+
+
+    <div class="d-flex justify-content-end my-3">
+      <input type="text" class="form-control w-25 me-2" placeholder="Input Application Here">
+      <button class="btn btn-primary">Search Student</button>
+    </div>
+
+    <!-- Student Details Form -->
+    <div class="card">
+      <div class="card-header bg-primary text-white">
+        Student Details Form
+      </div>
+      <div class="card-body">
+        <form>
+          <div class="row g-3">
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Input Student URN Number">
+              <small>URN Number</small>
+            </div>
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Input Student Application Number">
+              <small>Application Number</small>
+            </div>
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Input Student Registration Number">
+              <small>Registration Number</small>
+            </div>
+
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Input Student University Roll Number">
+              <small>University Enrollment Number</small>
+            </div>
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Input Student UID Here">
+              <small>UID Number</small>
+            </div>
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Input Student Aadhar Number">
+              <small>Aadhaar Number</small>
+            </div>
+
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Input Student Name">
+              <small>Student Name</small>
+            </div>
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Input Student Father Name">
+              <small>Father Name</small>
+            </div>
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Input Student Mother Name">
+              <small>Mother Name</small>
+            </div>
+
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Input Student Mobile">
+              <small>Mobile Number</small>
+            </div>
+            <div class="col-md-4">
+              <input type="email" class="form-control" placeholder="Input Student Email">
+              <small>Email ID</small>
+            </div>
+            <div class="col-md-4">
+              <select class="form-select">
+                <option selected disabled>Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+              </select>
+              <small>Gender</small>
+            </div>
+
+            <div class="col-md-4">
+              <select class="form-select">
+                <option selected disabled>Select Program</option>
+                <option>BCA</option>
+                <option>BA</option>
+                <option>B.Sc</option>
+              </select>
+              <small>Program</small>
+            </div>
+            <div class="col-md-4">
+              <select class="form-select">
+                <option selected disabled>Select Class</option>
+                <option>1st Year</option>
+                <option>2nd Year</option>
+                <option>3rd Year</option>
+              </select>
+              <small>Class</small>
+            </div>
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Input Student Year">
+              <small>Year</small>
+            </div>
+
+            <div class="col-md-4">
+              <input type="date" class="form-control">
+              <small>Date of Birth</small>
+            </div>
+            <div class="col-md-4">
+              <select class="form-select">
+                <option selected disabled>Select Category</option>
+                <option>General</option>
+                <option>OBC</option>
+                <option>SC</option>
+                <option>ST</option>
+              </select>
+              <small>Category</small>
+            </div>
+            <div class="col-md-4">
+              <input type="text" class="form-control bg-light" placeholder="Student ID" readonly>
+              <small>Student ID</small>
+            </div>
+          </div>
+
+          <div class="text-center mt-4">
+            <button type="submit" class="btn btn-success"> Update Student Details</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
